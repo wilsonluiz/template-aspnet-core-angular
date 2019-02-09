@@ -19,5 +19,11 @@ namespace TemplateBootstrap.Controllers
         {
             return View();
         }
+
+        [HttpGet("app/angualr")]
+        public IActionResult AngularApp()
+        {
+            return View();
+        }
     }
 }

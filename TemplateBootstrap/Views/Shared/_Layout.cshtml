@@ -230,8 +230,8 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link ripple " href="apps-dashboards-server.html" data-url="index.html">
-                                        <span>Server</span>
+                                    <a asp-controller="App" asp-action="AngularApp" class="nav-link ripple " data-url="index.html">
+                                        <span>Angular App</span>
                                     </a>
                                 </li>
                             </ul>
@@ -773,5 +773,6 @@
             </a>
         </nav>
     </main>
+    @RenderSection("scripts", false)
 </body>
 </html>

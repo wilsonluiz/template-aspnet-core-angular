@@ -69,7 +69,7 @@ var AppComponent = /** @class */ (function () {
     }
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'my-app',
+            selector: 'angular-app',
             template: __webpack_require__(/*! ./app.component.html */ "./app/app.component.html"),
             styles: [__webpack_require__(/*! ./app.component.css */ "./app/app.component.css")]
         })

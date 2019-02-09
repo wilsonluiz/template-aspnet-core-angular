@@ -13,5 +13,11 @@ namespace TemplateBootstrap.Controllers
         {
             return View();
         }
+
+        [HttpGet("app/dashboard")]
+        public IActionResult ProjectDashboard()
+        {
+            return View();
+        }
     }
 }

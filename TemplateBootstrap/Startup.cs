@@ -27,6 +27,7 @@ namespace TemplateBootstrap
             }
 
             app.UseStaticFiles();
+            app.UseNodeModules(env);
 
             app.UseMvc(config =>
             {
